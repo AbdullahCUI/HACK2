@@ -40,4 +40,12 @@ laditude2=degree_to_radian(laditude2);
 longitude2=degree_to_radian(longitude2);
 
 
+delta=laditude2 - laditude1;
+
+distance=(acos(sin(longitude1) *sin (longitude2)+cos(longitude2) * cos(delta) * radius));
+
+printf("<=Location Distance =>\n");
+
+printf("====================\n")
+ 
 }
