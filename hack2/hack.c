@@ -7,7 +7,7 @@
 
 #include<stdlib.h>
 
-double degree_to_radian=(double value);
+double degree_to_radian(double value);
 int main(){
 
 
@@ -30,4 +30,14 @@ scanf("lf",& laditude2);
 printf("Enter longitude_02  Degree=> 180 to -180");
 
 scanf("lf", & longitude2);
+
+laditude1=degree_to_radian(laditude1);
+
+longitude1=degree_to_radian(longitude1);
+
+laditude2=degree_to_radian(laditude2);
+
+longitude2=degree_to_radian(longitude2);
+
+
 }
