@@ -46,6 +46,16 @@ distance=(acos(sin(longitude1) *sin (longitude2)+cos(longitude2) * cos(delta) * 
 
 printf("<=Location Distance =>\n");
 
-printf("====================\n")
+printf("====================\n");
+
+printf("origin = %lf \n", longitude1,laditude1);
+
+printf("Distination = %lf ", longitude2, laditude2);
  
+ printf("Distance= %lf \n ", distance);
+
+ return 0;
+}
+double degree_to_radian(double value){
+    return ((value/180.0) * 3.14);
 }
