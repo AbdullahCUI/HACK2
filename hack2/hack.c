@@ -19,18 +19,18 @@ double distance=0.0, delta= 0.0;
 const int radius =6371;
 printf("Enter the latitude_01 in Degree 90 to _90\n");
 
-scanf("%lf", & longitude1);
+scanf("%lf", & laditude1);
 
 printf("Enter langitude_01 degree 180 to -180\n");
-scanf("%lf", & laditude1);
+scanf("%lf", & longitude1);
 
 printf("Enter latitude_02 degree is 90 to -90\n");
 
-scanf("lf",& longitude2);
+scanf("%lf",& laditude2);
 
 printf("Enter longitude_02  Degree=> 180 to -180\n");
 
-scanf("lf", & laditude2);
+scanf("%lf", & longitude2);
 
 laditude1=degree_to_radian(laditude1);
 
